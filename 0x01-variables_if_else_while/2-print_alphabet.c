@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-for (i = 'A'; i <= 'Z'; i++)
+for (int i = 'A'; i <= 'Z'; i++)
 {
 putchar(tolower(i));
 putchar(tolower('\n');
