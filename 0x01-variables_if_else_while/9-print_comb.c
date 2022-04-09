@@ -8,7 +8,7 @@ int main(void)
 {
 int j = 48;
 int comm = 44;
-while (n <= 57)
+while (j <= 57)
 {
 putchar(j);
 if (j != 57)
