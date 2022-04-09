@@ -7,10 +7,10 @@
 int main(void)
 {
 int j = 122;
-while (n > 96)
+while (j > 96)
 {
-putchar(n);
-n -= 1;
+putchar(j);
+j -= 1;
 }
 putchar('\n');
 return (0);
