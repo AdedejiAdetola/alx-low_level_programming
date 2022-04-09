@@ -5,10 +5,12 @@
  */
 int main(void)
 {
-for (int i = 'A'; i <= 'Z'; i++)
+int l = 'a';
+while (l <= 'z')
 {
-putchar(tolower(i));
-putchar(tolower('\n');
+putchar(l);
+l += 1;
 }
+putchar('\n');
 return (0);
 }
