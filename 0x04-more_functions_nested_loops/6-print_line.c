@@ -12,11 +12,8 @@ while (i < n)
 {
 if (n > 0)
 {
-_putchar(95);
-i += 1;
+_putchar('_');
 }
-else
-_putchar('\n');
 }
 _putchar('\n');
 }
