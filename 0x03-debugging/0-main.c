@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - test if +ve or -ve
+ * main - test if positive or negative
  * Return: 0
  */
 int main(void)
