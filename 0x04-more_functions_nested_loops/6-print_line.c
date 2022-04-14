@@ -12,7 +12,7 @@ if (n > 0)
 {
 for (; i < n; i++)
 {
-_putchar('_')i;
+_putchar('_');
 }
 }
 _putchar('\n');
