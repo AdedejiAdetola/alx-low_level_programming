@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts: print string
+ * _puts - print string
  * @str: pointer to char
  * Return: Nan
  */
