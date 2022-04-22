@@ -7,15 +7,22 @@
  */
 void rev_string(char *s)
 {
-int i = 0;
-int aux = 0;
-char ltemp;
-while (aux < i)
+int i, max, half;
+char first, last;
+
+i = 0;
+while (s[i] != '\0')
 {
-ltemp = s[i];
-s[i] = s[aux];
-s[aux] = ltemp;
-aux++;
-i--;
+i++;
+}
+max = i - 1;
+half = max / 2;
+while (half >= 0)
+{
+first = s[max - half];
+last = s[half];
+s[half] = first;
+s[max - half] = last;
+half--;
 }
 }
