@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * rot13- encode string using rot13
+ * rot13- encoauuu
  * @s: input string
  * Return: pointer to dest
  */
-char *rot13(chat *s)
+char *rot13(char *s)
 {
 int count = 0, i;
 char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
