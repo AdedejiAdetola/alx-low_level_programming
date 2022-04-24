@@ -15,5 +15,5 @@ if ((*(s + count) >= 97) && (*(s + count) <= 122))
 }
 count++;
 }
-return(s);
+return (s);
 }
