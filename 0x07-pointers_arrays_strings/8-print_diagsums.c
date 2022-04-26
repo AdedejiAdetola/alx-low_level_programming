@@ -13,7 +13,7 @@ int value = 0;
 int sum, sum2;
 
 sum = sum2 = 0;
-while (i <(size * size))
+while (i < (size * size))
 {
 value = *(a + i);
 sum = sum + value;
