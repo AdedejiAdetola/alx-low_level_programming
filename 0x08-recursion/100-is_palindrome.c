@@ -32,5 +32,5 @@ else if (*s == '\0')
 {
 return (1);
 }
-return (get_pal(s + 1,len - 2));
+return (get_pal(s + 1, len - 2));
 }
