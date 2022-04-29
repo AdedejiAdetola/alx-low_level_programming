@@ -24,7 +24,7 @@ return (getNumSqr(n, 1));
 }
 
 /**
- * getNumSqrv- get num of sqrt
+ * getNumSqrt - get num of sqrt
  * @num: input num'
  * @i: counter
  * Return: int
